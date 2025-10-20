@@ -1,0 +1,33 @@
+# Placez vos images ici
+
+## Structure recommandée:
+
+```
+images/
+├── hero-bg.jpg
+├── factory-exterior.jpg
+├── team.jpg
+├── products/
+│   ├── tole-ondulee.jpg
+│   ├── tole-lisse.jpg
+│   ├── bac-acier.jpg
+│   ├── tube-carre.jpg
+│   ├── tube-rond.jpg
+│   ├── profile-u.jpg
+│   ├── caillebotis.jpg
+│   ├── grille-securite.jpg
+│   ├── crochets.jpg
+│   ├── vis-toiture.jpg
+│   ├── vis-tole.jpg
+│   └── fer-attache.jpg
+└── gallery/
+    ├── production-1.jpg
+    ├── production-2.jpg
+    ├── production-3.jpg
+    ├── factory-1.jpg
+    ├── factory-2.jpg
+    ├── factory-3.jpg
+    ├── project-1.jpg
+    ├── project-2.jpg
+    └── project-3.jpg
+```
