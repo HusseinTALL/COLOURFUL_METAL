@@ -253,7 +253,7 @@ onUnmounted(() => {
           <div class="max-w-4xl mx-auto px-4">
             <div class="flex items-center gap-2 overflow-x-auto scrollbar-hide justify-center">
               <button
-                v-for="(image, index) in images.slice(Math.max(0, currentIndex - 3), Math.min(images.length, currentIndex + 4))"
+                v-for="image in images.slice(Math.max(0, currentIndex - 3), Math.min(images.length, currentIndex + 4))"
                 :key="image.id"
                 @click.stop="currentIndex = images.findIndex(img => img.id === image.id)"
                 :class="[

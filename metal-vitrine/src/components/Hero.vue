@@ -10,7 +10,7 @@ interface Props {
   backgroundImage?: string;
 }
 
-const props = withDefaults(defineProps<Props>(), {
+withDefaults(defineProps<Props>(), {
   ctaText: 'En savoir plus',
   ctaLink: '/about',
   backgroundImage: '/assets/images/hero-bg.jpg'
